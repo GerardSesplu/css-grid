@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+header{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    
+    padding-left: 80px;
+    margin-bottom: 50px;
+    background-color: cadetblue;
+    display: inline-block;
+    line-height: 20px;
+
+}
+.nav{
+    width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    background-color: cadetblue;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+.bienvenida{
+    width: 1200px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+    border: cadetblue 2px solid;
+}
+.posts{
+    display: grid;
+    width: 1200px;
+    margin: auto;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+article{
+    padding: 10px;
+    border: 2px cadetblue solid;
+}
+
+.titulo1{
+    border: 2px solid cadetblue;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.logo{
+    width: 70px;
+    height: 50px;
+    float: left;
+}
+hr{
+    width: 50%;
+    border: 4px solid cadetblue;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
